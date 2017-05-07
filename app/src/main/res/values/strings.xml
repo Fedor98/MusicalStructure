@@ -48,7 +48,7 @@
         playlist and go into shuffle mode. The album cover should be front and center of the
         activity.
         To implement this functionality, I would use two major classes in the media framework:
-        MediaPlayer (the primary API for playing sound and video) and AudioManager (Manages audio
+        MediaPlayer (the primary API for playing sound and video) and AudioManager (manages audio
         sources and audio output on a device).
         (source: https://www.sitepoint.com/develop-music-streaming-android-app/)</string>
 
