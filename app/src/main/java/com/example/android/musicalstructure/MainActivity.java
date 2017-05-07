@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(songsIntent);
+                finish();
             }
         });
 
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(artistsIntent);
+                finish();
             }
         });
 
@@ -58,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(playlistsIntent);
+                finish();
             }
         });
 
@@ -74,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(nowPlayingIntent);
+                finish();
             }
         });
 

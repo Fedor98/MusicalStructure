@@ -22,10 +22,10 @@ public class SongsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link MainActivity}
-                Intent songsIntent = new Intent(SongsActivity.this, MainActivity.class);
+                Intent homeScreenIntent = new Intent(SongsActivity.this, MainActivity.class);
 
                 // Start the new activity
-                startActivity(songsIntent);
+                startActivity(homeScreenIntent);
             }
         });
 
@@ -42,6 +42,7 @@ public class SongsActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(artistsIntent);
+                finish();
             }
         });
 
@@ -58,6 +59,7 @@ public class SongsActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(nowPlayingIntent);
+                finish();
             }
         });
 
@@ -74,6 +76,7 @@ public class SongsActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(playlistsIntent);
+                finish();
             }
         });
     }

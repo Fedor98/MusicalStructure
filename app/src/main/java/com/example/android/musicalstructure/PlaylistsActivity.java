@@ -1,6 +1,5 @@
 package com.example.android.musicalstructure;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -23,10 +22,10 @@ public class PlaylistsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link MainActivity}
-                Intent songsIntent = new Intent(PlaylistsActivity.this, MainActivity.class);
+                Intent homeScreenIntent = new Intent(PlaylistsActivity.this, MainActivity.class);
 
                 // Start the new activity
-                startActivity(songsIntent);
+                startActivity(homeScreenIntent);
             }
         });
 
@@ -43,6 +42,7 @@ public class PlaylistsActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(songsButtonIntent);
+                finish();
             }
         });
 
@@ -59,6 +59,7 @@ public class PlaylistsActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(nowPlayingIntent);
+                finish();
             }
         });
 
@@ -75,6 +76,7 @@ public class PlaylistsActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(artistsIntent);
+                finish();
             }
         });
     }

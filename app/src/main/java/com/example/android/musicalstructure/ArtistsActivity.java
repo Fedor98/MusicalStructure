@@ -22,26 +22,27 @@ public class ArtistsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link MainActivity}
-                Intent songsIntent = new Intent(ArtistsActivity.this, MainActivity.class);
+                Intent homeScreenIntent = new Intent(ArtistsActivity.this, MainActivity.class);
 
                 // Start the new activity
-                startActivity(songsIntent);
+                startActivity(homeScreenIntent);
             }
         });
 
         // Find the Button that shows the songs category
-        Button songsButton = (Button) findViewById(R.id.songs_button);
+        Button songs = (Button) findViewById(R.id.songs_button);
 
         // Set a click listener on that Button
-        songsButton.setOnClickListener(new View.OnClickListener() {
+        songs.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the songs button is clicked on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link SongsActivity}
-                Intent songsButtonIntent = new Intent(ArtistsActivity.this, SongsActivity.class);
+                Intent songsIntent = new Intent(ArtistsActivity.this, SongsActivity.class);
 
                 // Start the new activity
-                startActivity(songsButtonIntent);
+                startActivity(songsIntent);
+                finish();
             }
         });
 
@@ -58,6 +59,7 @@ public class ArtistsActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(nowPlayingIntent);
+                finish();
             }
         });
 
@@ -74,6 +76,7 @@ public class ArtistsActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(playlistsIntent);
+                finish();
             }
         });
     }

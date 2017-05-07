@@ -46,6 +46,10 @@
         app knows which songs to play more often and which not. There should also be the option
         to stream the song to a connected Bluetooth speaker or a Chromecast device, add it to a
         playlist and go into shuffle mode. The album cover should be front and center of the
-        activity.</string>
+        activity.
+        To implement this functionality, I would use two major classes in the media framework:
+        MediaPlayer (the primary API for playing sound and video) and AudioManager (Manages audio
+        sources and audio output on a device).
+        (source: https://www.sitepoint.com/develop-music-streaming-android-app/)</string>
 
 </resources>
