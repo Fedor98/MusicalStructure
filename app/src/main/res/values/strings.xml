@@ -1,0 +1,51 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">MusicalStructure</string>
+
+    <!-- Category name for songs [CHAR LIMIT=20] -->
+    <string name="category_songs">Songs</string>
+
+    <!-- Category name for the vocabulary words for artists [CHAR LIMIT=20] -->
+    <string name="category_artists">Artists</string>
+
+    <!-- Category name for the vocabulary words for playlists [CHAR LIMIT=20] -->
+    <string name="category_playlists">Playlists</string>
+
+    <!-- Category name for the vocabulary words for Now Playing [CHAR LIMIT=20] -->
+    <string name="category_nowPlaying">Now Playing</string>
+
+    <!-- Text for Home Screen button -->
+    <string name="home_screen">Home Screen</string>
+
+    <!-- Explanation of the purpose of the Songs Activity -->
+    <string name="explanation_songs">In this activity, the user can see a scrollable list of all
+        his songs. The list items appear as cards with the cover at the very left of each list item,
+        the song\'s name (upper half, fat letters) and the artist\'s name (lower half, smaller text
+        size, more discreet color) right next to it, and the song\'s duration (in mm:ss) to the very
+        right.</string>
+
+    <!-- Explanation of the purpose of the Artists Activity -->
+    <string name="explanation_artists">In this activity, the user can see a scrollable list of all
+        the artists of the songs in his library. This activity should look similar to Apple\'s now
+        infamous "Cover Flow".
+    </string>
+
+    <!-- Explanation of the purpose of the Playlists Activity -->
+    <string name="explanation_playlists">In this activity, the user can see a scrollable list of all
+        the playlists he created. The playlists are displayed as rectangular boxes with different covers
+        of songs in the playlist in the upper half of the box, and the name and a user-editable
+        description of it in the lower half. Plus, a "Play Now" icon overlapping both halfs in the
+        lower right corner. Overall, it is similar to Google Play Music\'s playlists tab.</string>
+
+
+    <!-- Explanation of the purpose of the Now Playing Activity -->
+    <string name="explanation_nowPlaying">In this activity, the user can see all the info (title,
+        artist, album, duration (incl. time already played and time left)) about the currently
+        playing song. He also has the ability to pause and play the song from here, to skip to the
+        next song or go back to the last one. To like or dislike it, so that the logic behind the
+        app knows which songs to play more often and which not. There should also be the option
+        to stream the song to a connected Bluetooth speaker or a Chromecast device, add it to a
+        playlist and go into shuffle mode. The album cover should be front and center of the
+        activity.</string>
+
+</resources>

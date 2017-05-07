@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/category_artists"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.ArtistsActivity">
+
+    <TextView
+        style="@style/ExplanationStyle"
+        android:text="@string/explanation_artists" />
+
+    <Button
+        android:id="@+id/home_screen_button"
+        style="@style/HomeScreenButtonStyle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/songs_button"
+            style="@style/ButtonStyle"
+            android:background="@color/category_songs"
+            android:text="@string/category_songs" />
+
+        <Button
+            android:id="@+id/nowPlaying_button"
+            style="@style/ButtonStyle"
+            android:background="@color/category_nowPlaying"
+            android:text="@string/category_nowPlaying" />
+
+        <Button
+            android:id="@+id/playlists_button"
+            style="@style/ButtonStyle"
+            android:background="@color/category_playlists"
+            android:text="@string/category_playlists" />
+    </LinearLayout>
+
+</LinearLayout>
