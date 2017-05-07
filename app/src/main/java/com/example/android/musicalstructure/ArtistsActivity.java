@@ -13,22 +13,6 @@ public class ArtistsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artists);
 
-        // Find the Button that shows the Home Screen
-        Button homeScreen = (Button) findViewById(R.id.home_screen_button);
-
-        // Set a click listener on that Button
-        homeScreen.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the Home Screen button is clicked on.
-            @Override
-            public void onClick(View view) {
-                // Create a new intent to open the {@link MainActivity}
-                Intent homeScreenIntent = new Intent(ArtistsActivity.this, MainActivity.class);
-
-                // Start the new activity
-                startActivity(homeScreenIntent);
-            }
-        });
-
         // Find the Button that shows the songs category
         Button songs = (Button) findViewById(R.id.songs_button);
 

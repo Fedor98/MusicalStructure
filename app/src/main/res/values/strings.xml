@@ -22,20 +22,22 @@
         his songs. The list items appear as cards with the cover at the very left of each list item,
         the song\'s name (upper half, fat letters) and the artist\'s name (lower half, smaller text
         size, more discreet color) right next to it, and the song\'s duration (in mm:ss) to the very
-        right.</string>
+        right.\n\nYou can simply get back to the Home Screen by pressing the Back Key on your phone.
+    </string>
 
     <!-- Explanation of the purpose of the Artists Activity -->
     <string name="explanation_artists">In this activity, the user can see a scrollable list of all
         the artists of the songs in his library. This activity should look similar to Apple\'s now
-        infamous "Cover Flow".
-    </string>
+        infamous "Cover Flow".\n\nYou can simply get back to the Home Screen by pressing the Back
+        Key on your phone.</string>
 
     <!-- Explanation of the purpose of the Playlists Activity -->
     <string name="explanation_playlists">In this activity, the user can see a scrollable list of all
         the playlists he created. The playlists are displayed as rectangular boxes with different covers
         of songs in the playlist in the upper half of the box, and the name and a user-editable
         description of it in the lower half. Plus, a "Play Now" icon overlapping both halfs in the
-        lower right corner. Overall, it is similar to Google Play Music\'s playlists tab.</string>
+        lower right corner. Overall, it is similar to Google Play Music\'s playlists tab.\n\nYou can
+        simply get back to the Home Screen by pressing the Back Key on your phone.</string>
 
 
     <!-- Explanation of the purpose of the Now Playing Activity -->
@@ -50,6 +52,7 @@
         To implement this functionality, I would use two major classes in the media framework:
         MediaPlayer (the primary API for playing sound and video) and AudioManager (manages audio
         sources and audio output on a device).
-        (source: https://www.sitepoint.com/develop-music-streaming-android-app/)</string>
+        (source: https://www.sitepoint.com/develop-music-streaming-android-app/)\n\nYou can simply
+        get back to the Home Screen by pressing the Back Key on your phone.</string>
 
 </resources>
